@@ -1,0 +1,59 @@
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.country-select {
+  margin-bottom: 20px;
+}
+
+.country-select label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.holidays-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.holidays-table th,
+.holidays-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.holidays-table th {
+  background-color: #f2f2f2;
+}
+
+.holidays-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.loading {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.no-holidays {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}
